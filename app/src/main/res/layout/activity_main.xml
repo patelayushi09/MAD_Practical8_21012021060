@@ -95,6 +95,8 @@
                 android:backgroundTint="#44974C"
                 android:elevation="10dp"
                 android:text="Create Alarm"
+                app:layout_constraintBottom_toBottomOf="@+id/constraint"
+                android:layout_marginBottom="10dp"
                 app:layout_constraintEnd_toEndOf="@id/constraint"
                 app:layout_constraintStart_toStartOf="@id/constraint"
                 app:layout_constraintTop_toBottomOf="@id/tv4" />
@@ -167,6 +169,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#44974C"
                 android:text="Cancel Alarm"
+                app:layout_constraintBottom_toBottomOf="@+id/constraint2"
+                android:layout_marginBottom="10dp"
                 app:layout_constraintTop_toBottomOf="@id/tv6"
                 app:layout_constraintStart_toStartOf="@id/constraint2"
                 app:layout_constraintEnd_toEndOf="@id/constraint2"
